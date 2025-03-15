@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2e, #3a3a52);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(255, 138, 0, 0.5);
+}
+
+#voiceText {
+    font-size: 18px;
+    font-style: italic;
+    color: #ffcc00;
+}
+
+pre {
+    background: black;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    min-height: 50px;
+    font-size: 14px;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    button {
+        width: 100%;
+    }
+}
