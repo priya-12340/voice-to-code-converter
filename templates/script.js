@@ -34,7 +34,6 @@ recognition.onresult = (event) => {
 
 // Generate Code Directly from Voice Input
 function generateCode(command) {
-    // Display whatever the user says as code
     codeOutput.innerText = command;
 }
 
